@@ -111,21 +111,21 @@ if( !class_exists( 'dsframework_gallery' ) )
 	    public function register_ds_gallery_post() {
 
 	    	 $gallery_cat_labels = array(
-				'name' => _x( 'Gallery_Categories', 'dsframework' ),
-				'singular_name' => _x( 'Gallery Category', 'dsframework' ),
-				'search_items' => _x( 'Search Gallery Categories', 'dsframework' ),
-				'popular_items' => _x( 'Popular Gallery Categories', 'dsframework' ),
-				'all_items' => _x( 'All Gallery Categories', 'dsframework' ),
-				'parent_item' => _x( 'Parent Gallery Category', 'dsframework' ),
-				'parent_item_colon' => _x( 'Parent Gallery Category:', 'dsframework' ),
-				'edit_item' => _x( 'Edit Gallery Category', 'dsframework' ),
-				'update_item' => _x( 'Update Gallery Category', 'dsframework' ),
-				'add_new_item' => _x( 'Add New Gallery Category', 'dsframework' ),
-				'new_item_name' => _x( 'New Gallery Category Name', 'dsframework' ),
-				'separate_items_with_commas' => _x( 'Separate gallery categories with commas', 'dsframework' ),
-				'add_or_remove_items' => _x( 'Add or remove gallery categories', 'dsframework' ),
-				'choose_from_most_used' => _x( 'Choose from the most used gallery categories', 'dsframework' ),
-				'menu_name' => _x( 'Gallery Categories', 'dsframework' ),
+				'name' => __( 'Gallery_Categories', 'dsframework' ),
+				'singular_name' => __( 'Gallery Category', 'dsframework' ),
+				'search_items' => __( 'Search Gallery Categories', 'dsframework' ),
+				'popular_items' => __( 'Popular Gallery Categories', 'dsframework' ),
+				'all_items' => __( 'All Gallery Categories', 'dsframework' ),
+				'parent_item' => __( 'Parent Gallery Category', 'dsframework' ),
+				'parent_item_colon' => __( 'Parent Gallery Category:', 'dsframework' ),
+				'edit_item' => __( 'Edit Gallery Category', 'dsframework' ),
+				'update_item' => __( 'Update Gallery Category', 'dsframework' ),
+				'add_new_item' => __( 'Add New Gallery Category', 'dsframework' ),
+				'new_item_name' => __( 'New Gallery Category Name', 'dsframework' ),
+				'separate_items_with_commas' => __( 'Separate gallery categories with commas', 'dsframework' ),
+				'add_or_remove_items' => __( 'Add or remove gallery categories', 'dsframework' ),
+				'choose_from_most_used' => __( 'Choose from the most used gallery categories', 'dsframework' ),
+				'menu_name' => __( 'Gallery Categories', 'dsframework' ),
 		    );
 
 			$args = array(
@@ -245,10 +245,10 @@ if( !class_exists( 'dsframework_gallery' ) )
 		public function show_ds_gallery_column($columns) {
 			$columns = array(
 				"cb" => "<input type=\"checkbox\" />",
-				"title" => "Title",
-				"author" => "Author",
-				"ds-gallery-category" => "Gallery Categories",
-				"date" => "date");
+				"title" => __("Title", 'dsframework'),
+				"author" => __("Author",'dsframework'),
+				"ds-gallery-category" => __("Gallery Categories", 'dsframework'),
+				"date" => __("date",'dsframework'));
 			return $columns;
 		}
 		public function ds_gallery_custom_columns($column){

@@ -169,7 +169,7 @@ $of_options[] = array( "name" => __("Gallery Image Size", 'dsframework'),
 					"type" => "text");
 
 $of_options[] = array( "name" => __("Auto-open project description", 'dsframework'),
-					"desc" => __("Automatically open project description on first image of every album."),
+					"desc" => __("Automatically open project description on first image of every album.", 'dsframework'),
 					"id" => "auto_open_project_desc",
 					"std" => "1",
 					"type" => "checkbox");

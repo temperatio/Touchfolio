@@ -105,7 +105,7 @@ global $options_machine;
 	<a><div id="expand_options" class="expand">Expand</div></a>
     <img style="display:none" src="<?php echo ADMIN_DIR; ?>images/loading-bottom.gif" class="ajax-loading-img ajax-loading-img-bottom" alt="Working..." />
     <input type="hidden" id="security" name="security" value="<?php echo wp_create_nonce('of_ajax_nonce'); ?>" />	
-	<button id ="of_save" type="button" class="button-primary"><?php _e('Save All Changes');?></button>
+	<button id ="of_save" type="button" class="button-primary"><?php _e('Save All Changes', 'dsframework');?></button>
 	</div><!--.info_bar--> 	
 	
     <div id="main">
@@ -122,8 +122,8 @@ global $options_machine;
     <input type="hidden" id="security" name="security" value="<?php echo wp_create_nonce('of_ajax_nonce'); ?>" />
 	<input type="hidden" name="of_reset" value="reset" />
 	
-	<button id ="of_save" type="submit" class="button-primary"><?php _e('Save All Changes');?></button>
-	<button id ="of_reset" type="submit" class="button submit-button reset-button" ><?php _e('Reset All Options');?></button>
+	<button id ="of_save" type="submit" class="button-primary"><?php _e('Save All Changes', 'dsframework');?></button>
+	<button id ="of_reset" type="submit" class="button submit-button reset-button" ><?php _e('Reset All Options', 'dsframework');?></button>
 	</div><!--.save_bar--> 
   </form>
 
@@ -1344,10 +1344,10 @@ public static function optionsframework_uploader_function($id,$std,$mod){
     
 	$uploader .= '<input class="'.$hide.' upload of-input" name="'. $id .'" id="'. $id .'_upload" value="'. $val .'" />';	
 	
-	$uploader .= '<div class="upload_button_div"><span class="button image_upload_button" id="'.$id.'">'._('Upload').'</span>';
+	$uploader .= '<div class="upload_button_div"><span class="button image_upload_button" id="'.$id.'">'.__('Upload', 'dsframework').'</span>';
 	
 	if(!empty($upload)) {$hide = '';} else { $hide = 'hide';}
-	$uploader .= '<span class="button image_reset_button '. $hide.'" id="reset_'. $id .'" title="' . $id . '">Remove</span>';
+	$uploader .= '<span class="button image_reset_button '. $hide.'" id="reset_'. $id .'" title="' . $id . '">'.__('Remove', 'dsframework').'</span>';
 	$uploader .='</div>' . "\n";
     $uploader .= '<div class="clear"></div>' . "\n";
 	if(!empty($upload)){
@@ -1379,10 +1379,10 @@ public static function optionsframework_media_uploader_function($id,$std,$int,$m
     
 	$uploader .= '<input class="'.$hide.' upload of-input" name="'. $id .'" id="'. $id .'_upload" value="'. $val .'" />';	
 	
-	$uploader .= '<div class="upload_button_div"><span class="button media_upload_button" id="'.$id.'" rel="' . $int . '">Upload</span>';
+	$uploader .= '<div class="upload_button_div"><span class="button media_upload_button" id="'.$id.'" rel="' . $int . '">'. __('Upload', 'dsframework') . '</span>';
 	
 	if(!empty($upload)) {$hide = '';} else { $hide = 'hide';}
-	$uploader .= '<span class="button mlu_remove_button '. $hide.'" id="reset_'. $id .'" title="' . $id . '">Remove</span>';
+	$uploader .= '<span class="button mlu_remove_button '. $hide.'" id="reset_'. $id .'" title="' . $id . '">'. __('Remove', 'dsframework') . '</span>';
 	$uploader .='</div>' . "\n";
 	$uploader .= '<div class="screenshot">';
 	if(!empty($upload)){	

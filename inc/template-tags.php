@@ -128,7 +128,7 @@ function dsframework_posted_on() {
 	);
 	if ( comments_open() || ( '0' != get_comments_number() && ! comments_open() ) ) {
 		echo '<span class="sep"> &middot; </span><span class="comments-link">';
-		comments_popup_link( __( 'leave a comment', '_s' ), __( '1 comment', '_s' ), __( '% comments', '_s' ), 'underlined' );
+		comments_popup_link( __( 'leave a comment', 'dsframework' ), __( '1 comment', 'dsframework' ), __( '% comments', 'dsframework' ), 'underlined' );
 		echo '</span>';
 	}
 }

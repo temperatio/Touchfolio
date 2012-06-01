@@ -66,7 +66,7 @@
 				 'url' => '<p class="comment-form-url"><label for="url">'. __('Website', 'dsframework') . '</label><input id="url" name="url" type="url" value="" size="30" aria-required="true"></p>', 
 			),
 			'cancel_reply_link' => __('cancel reply', 'dsframework'),
-			'title_reply' => 'Leave a Comment',
+			'title_reply' => __('Leave a Comment', 'dsframework'),
 	        // change the title of send button 
 	     
 	        // remove "Text or HTML to be displayed after the set of comment fields"
