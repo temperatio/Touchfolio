@@ -1,0 +1,697 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: touchfolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-01 10:10+0100\n"
+"PO-Revision-Date: 2012-06-01 10:53+0100\n"
+"Last-Translator: César Gómez Antonio <cesar@temperatio>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "The page you were looking for cannot be found."
+msgstr "La página que buscas no se puede encontrar."
+
+#: archive.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archivos de la categoría:% s"
+
+#: archive.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archivo de la etiqueta:% s"
+
+#: archive.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archivo del Autor:% s"
+
+#: archive.php:40
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archivos diarios: %s"
+
+#: archive.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archivos por mes:% s"
+
+#: archive.php:46
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archivos Anual:% s"
+
+#: archive.php:49
+msgid "Archives"
+msgstr "Archivos"
+
+#: archive.php:93
+msgid "Nothing Found"
+msgstr "No se encontró nada"
+
+#: archive.php:97
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no puede encontrar lo que estás buscando. Tal vez la búsqueda puede ayudar."
+
+#: comments.php:17
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Esta publicación está protegida por contraseña. Introduce la contraseña para ver los comentarios."
+
+#: comments.php:29
+msgid "Comments"
+msgstr "Comentarios"
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:47
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios más antiguos"
+
+#: comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr "Los nuevos comentarios &rarr;"
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:64
+msgid "Name <span class=\"required-field-label\">(required)</span>"
+msgstr "Nombre <span class=\"required-field-label\"> (requerido) </span>"
+
+#: comments.php:65
+msgid "Email <span class=\"required-field-label\">(required, will not be published)</span>"
+msgstr "E-mail <span class=\"required-field-label\"> (requerido, no será publicado) </span>"
+
+#: comments.php:66
+msgid "Website"
+msgstr "Sitio web"
+
+#: comments.php:68
+msgid "cancel reply"
+msgstr "Cancelar respuesta"
+
+#: comments.php:69
+msgid "Leave a Comment"
+msgstr "Deja un comentario"
+
+#: comments.php:76
+msgid "Comment"
+msgstr "Comentario"
+
+#: content-page.php:16
+#: content-single.php:18
+#: content.php:24
+#: image.php:79
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: content-single.php:23
+msgid "Tagged: "
+msgstr "Etiquetado: "
+
+#: content.php:23
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Seguir leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: ds-gallery-masonry-template.php:52
+msgid "Album images not found."
+msgstr "No se encuentran las imágenes del álbum."
+
+#: functions.php:161
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: functions.php:165
+msgid "Social Links Menu"
+msgstr "Menú Enlaces Sociales"
+
+#: functions.php:177
+msgid "Regular Page Sidebar"
+msgstr "Barra lateral de página normal"
+
+#: functions.php:212
+msgid "Next project"
+msgstr "Siguiente"
+
+#: functions.php:213
+msgid "Prev project"
+msgstr "Anterior"
+
+#: functions.php:214
+msgid "close info"
+msgstr "cerrar info"
+
+#: functions.php:215
+msgid "Click and drag in any direction to browse."
+msgstr "Haz clic y arrastra en cualquier dirección para navegar."
+
+#: functions.php:216
+msgid "Next image"
+msgstr "Imagen siguiente"
+
+#: functions.php:217
+msgid "close video"
+msgstr "cerrar vídeo"
+
+#: functions.php:218
+msgid "Prev image"
+msgstr "Imagen anterior"
+
+#: functions.php:219
+msgid "&larr; back to list"
+msgstr "&larr; Volver a la lista"
+
+#: functions.php:220
+msgid "Swipe up"
+msgstr "Deslizar hacia arriba"
+
+#: functions.php:221
+msgid "Swipe down"
+msgstr "Deslizar hacia abajo"
+
+#: functions.php:233
+msgid "&mdash; Select page &mdash;"
+msgstr "&mdash; Seleccionar Página &mdash;"
+
+#: functions.php:234
+msgid "&mdash;"
+msgstr "&mdash;"
+
+#: functions.php:235
+msgid "menu"
+msgstr "menú"
+
+#: functions.php:282
+msgid "Add to album"
+msgstr "Agregar a álbum"
+
+#: functions.php:283
+msgid "Adding..."
+msgstr "Añadiendo..."
+
+#: functions.php:284
+msgid "Inserting error. Please try again."
+msgstr "Error de Inserción. Por favor, inténtalo de nuevo."
+
+#: functions.php:285
+msgid "Added"
+msgstr "Añadido"
+
+#: header.php:14
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: header.php:56
+msgid "home"
+msgstr "inicio"
+
+#: header.php:79
+msgid "Primary menu is not selected and/or created. Please go to \"Appearance &rarr; Menus\" and setup menu."
+msgstr "El menú principal no está seleccionado y/o creado. Por favor, ve a \"Apariencia &rarr; Menús\" y configura el menú."
+
+#: image.php:20
+#, php-format
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> a <a href=\"%3$s\" title=\"Enlace a la imagen a tamaño completo\">%4$s &times; %5$s</a> en <a href=\"%6$s\" title=\"Volver a 7%$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:30
+#: image.php:93
+msgid "Edit"
+msgstr "Editar"
+
+#: image.php:33
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: image.php:34
+msgid "Next &rarr;"
+msgstr "Siguiente &rarr;"
+
+#: image.php:85
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Publica un comentario\">Publica un comentario </a> o deja un trackback: <a href=\"trackback-link\" href=\"%s\" title=\"Dirección de Trackback para su mensaje\" rel=\"trackback\">Dirección de Trackback</a>."
+
+#: image.php:87
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Los comentarios están cerrados, pero puedes dejar un trackback: URL <a class=\"trackback-link\" href=\"%s\" title=\"Trackback para su post\" rel=\"trackback\">URL del Trackback</a>."
+
+#: image.php:89
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Los trackbacks están cerrados, pero se puede <a class=\"comment-link\" href=\"#respond\" title=\"Post un comment\">publicar un comentario</a>."
+
+#: image.php:91
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Los comentarios y trackbacks están cerrados."
+
+#: index.php:26
+msgid "No posts to display"
+msgstr "No hay mensajes que mostrar"
+
+#: index.php:29
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda de %s"
+
+#: search.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero nada corresponde a sus criterios de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#: update-notifier.php:71
+msgid "Touchfolio Theme Update"
+msgstr "Actualización de Touchfolio"
+
+#: update-notifier.php:72
+msgid "<strong>There is a new version of Touchfolio theme available.</strong> Visit <a style=\"text-decoration:underline;\" href=\"http://dimsemenov.com/themes/touchfolio/changelog.html\">changelog page</a> to see what's new and how to update."
+msgstr "<strong>Hay una nueva versión de Touchfolio disponible.</strong> Visita <a style=\"text-decoration:underline;\" href=\"http://dimsemenov.com/themes/touchfolio/changelog.html\">la pagina de cambios</a> para ver que hay de nuevo y como actualizar."
+
+#: update-notifier.php:75
+msgid "<strong>Please note:</strong> make a backup of Touchfolio theme inside your WordPress installation folder <strong>"
+msgstr "<strong>Por favor ten en cuenta:</strong> hacer una copia de seguridad de Touchfolio dentro de la carpeta de instalación de WordPress<strong>"
+
+#: admin/admin-functions.php:27
+msgid "Thank you for using <a href=\"http://dimsemenov.com/themes/touchfolio/\">Touchfolio</a> by <a href=\"http://dimsemenov.com/\">Dmitry Semenov</a>. <a href=\"http://support.dimsemenov.com/forums/159023-touchfolio\">Leave feedback</a> or subscribe for news about theme via <a href=\"http://dimsemenov.com/subscribe.html\">newsletter</a> or <a href=\"http://twitter.com/dimsemenov\">Twitter</a>."
+msgstr "Gracias por usar <a href=\"http://dimsemenov.com/themes/touchfolio/\">Touchfolio</a> de <a href=\"http://dimsemenov.com/\">Dmitry Semenov</a>. <a href=\"http://support.dimsemenov.com/forums/159023-touchfolio\">Deja tus comentarios</a> o suscríbete al<a href=\"http://dimsemenov.com/subscribe.html\">boletín</a> para recibir noticias del tema o sígueme en <a href=\"http://twitter.com/dimsemenov\">Twitter</a>."
+
+#: admin/admin-functions.php:44
+msgid "<h2>Congratulations, Touchfolio theme installed!</h2><p style=\\\"font-size: 15px; line-height: 20px \\\">Theme is currently in beta and may contain bugs, please <a href=\\\"http://support.dimsemenov.com/forums/159023-touchfolio\\\">vote for features and report bugs</a>.<br/>To get notified about complete theme release, follow me on <a href=\\\"http://twitter.com/dimsemenov\\\">Twitter</a> or <a href=\\\"http://dimsemenov.com/subscribe.html\\\">join my email newsletter</a> (unsubscribe at any time, MailChimp).</p>"
+msgstr "<h2>¡Felicidades, Touchfolio se ha instalado!</h2><p style=\\\"font-size: 15px; line-height: 20px \\\">El tema está actualmente en beta y puede tener errores, por favor <a href=\\\"http://support.dimsemenov.com/forums/159023-touchfolio\\\">vota por nuevas características y reporta errores</a>.<br/>Para estar al tanto de actualizaciónes del tema, sígueme en <a href=\\\"http://twitter.com/dimsemenov\\\">Twitter</a> o <a href=\\\"http://dimsemenov.com/subscribe.html\\\">suscribete a mi boletín</a> (puedes desuscribirte en cualquier momento, MailChimp).</p>"
+
+#: admin/admin-interface.php:97
+msgid " Theme Options"
+msgstr "Opciones"
+
+#: admin/admin-interface.php:98
+#: inc/gallery-manage.php:270
+msgid "<p style=\"font-size: 14px; line-height: 20px \">Please note, theme is currently in beta and may some issues, please <a href=\"http://support.dimsemenov.com/forums/159023-touchfolio\">vote for new features and report bugs</a>.<br/>To get notified about complete theme release, follow me on <a href=\"http://twitter.com/dimsemenov\">Twitter</a> or <a href=\"http://dimsemenov.com/subscribe.html\">join my email newsletter</a> (unsubscribe at any time, MailChimp).</p>"
+msgstr "<p style=\"font-size: 15px; line-height: 20px\">El tema está actualmente en beta y puede tener errores, por favor <a href=\"http://support.dimsemenov.com/forums/159023-touchfolio\">vota por nuevas características y reporta errores</a>.<br/>Para estar al tanto de actualizaciónes del tema, sígueme en <a href=\"http://twitter.com/dimsemenov\">Twitter</a> o <a href=\"http://dimsemenov.com/subscribe.html\">suscribete a mi boletín</a> (puedes desuscribirte en cualquier momento, MailChimp).</p>"
+
+#: admin/admin-interface.php:108
+#: admin/admin-interface.php:125
+msgid "Save All Changes"
+msgstr "Guardar todos los cambios"
+
+#: admin/admin-interface.php:126
+msgid "Reset All Options"
+msgstr "Reiniciar todas las opciones"
+
+#: admin/admin-interface.php:594
+msgid "Click OK to backup your current saved options."
+msgstr "Haz clic en Aceptar para hacer una copia de seguridad de tus opciones guardadas actuales."
+
+#: admin/admin-interface.php:641
+msgid "Warning: All of your current options will be replaced with the data from your last backup! Proceed?"
+msgstr "Advertencia: Todas las opciones actuales serán reemplazados por los datos de la última copia de seguridad! ¿Deseas continuar?"
+
+#: admin/admin-interface.php:730
+msgid "Click OK to reset. All settings will be lost!"
+msgstr "Haz clic en Aceptar para reiniciar. ¡Todos los ajustes se perderán!"
+
+#: admin/admin-interface.php:1290
+msgid "Last Backup : "
+msgstr "Última copia de seguridad: "
+
+#: admin/admin-interface.php:1347
+#: admin/admin-interface.php:1382
+msgid "Upload"
+msgstr "Subir"
+
+#: admin/admin-interface.php:1350
+#: admin/admin-interface.php:1385
+msgid "Remove"
+msgstr "Quitar"
+
+#: admin/medialibrary-uploader.php:18
+msgid "Options"
+msgstr "Opciones"
+
+#: admin/medialibrary-uploader.php:210
+#: admin/theme-options.php:131
+#: inc/gallery-manage.php:143
+msgid "Gallery"
+msgstr "Galería"
+
+#: admin/medialibrary-uploader.php:210
+msgid "Previously Uploaded"
+msgstr "Subido Anteriormente"
+
+#: admin/theme-options.php:72
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: admin/theme-options.php:75
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/theme-options.php:76
+msgid "Main logo image. Default size is 97px x 16px. If blank site title text will be used.<br/>Size and position on different screen sizes and pages may be configured in selected skin less css file."
+msgstr "Imagen del logotipo principal. El tamaño por defecto es 97px x 16px. Si está vacío se utilizará el título del sitio. <br/> Los tamaños y posiciones en diferentes tamaños de pantalla se pueden configurar en el archivo 'less' selecionado."
+
+#: admin/theme-options.php:84
+msgid "Tracking Code"
+msgstr "Código de seguimiento"
+
+#: admin/theme-options.php:85
+msgid "Paste your Google Analytics (or other) tracking code here. This will be added into the footer template of your theme."
+msgstr "Copia y pega tu código de seguimiento de Google Analytics (u otro) aquí. Esto se añade a la plantilla del pie de página del tema."
+
+#: admin/theme-options.php:90
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/theme-options.php:91
+msgid "16px x 16px ico/png/gif image that will represent your website's favicon."
+msgstr "16px x 16px imagen ico/png/gif que se utilizará como favicon del sitio web ."
+
+#: admin/theme-options.php:102
+msgid "Footer Text"
+msgstr "Texto del Pie de página"
+
+#: admin/theme-options.php:103
+msgid "Text in footer. Height of footer may be configured in selected skin less css file. Leaving 'Powered by Touchfolio' text is not required, but much appreciated and keeps project alive. "
+msgstr "El texto del pie de página. La altura del pie de página puede ser configurada en el archivo 'less' seleccionado. Dejar el texto 'Powered by Touchfolio' no es necesario, pero si muy apreciado. "
+
+#: admin/theme-options.php:108
+msgid "Google Fonts Code"
+msgstr "Código de Google Web Fonts"
+
+#: admin/theme-options.php:109
+msgid "Google webfont code (or any other), will be inserted in site header. Example: <code>&lt;link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic' rel='stylesheet' type='text/css'&gt;</code>. Get it <a href='http://www.google.com/webfonts'>here</a>. Theme font can be changed in selected skin less css file."
+msgstr "El código de Google Web Font (o cualquier otro), se insertará en el encabezado del sitio. Ejemplo: <code>&lt;link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic' rel='stylesheet' type='text/css'&gt;</code>. Consíguelo <a href='http://www.google.com/webfonts'> aquí </a>. La fuente del tema se puede cambiar en el archivo 'less' seleccionado."
+
+#: admin/theme-options.php:114
+msgid "Skin File"
+msgstr "Archivo de estilo personalizado"
+
+#: admin/theme-options.php:115
+msgid "Theme skin less file."
+msgstr "Archivo 'less' de personalización del tema."
+
+#: admin/theme-options.php:121
+msgid "Facebook admin id"
+msgstr "Facebook admin id"
+
+#: admin/theme-options.php:122
+msgid "Facebook admin id. Leave empty if you don't need any tracking of sharing."
+msgstr "Identificación de administrador de Facebook. Dejar en blanco si no necesita ningún tipo de seguimiento o la función 'Compartir'."
+
+#: admin/theme-options.php:135
+msgid "Album categories in gallery page"
+msgstr "Categorías de Álbum en página de la galería"
+
+#: admin/theme-options.php:136
+msgid "Comma separated album categories to be displayed in galleries page template (usually home page). Leave empty to display all."
+msgstr "Lista separada por comas de las categorías a mostrar en la página de galería (por lo general tu página de inicio). Dejar en blanco para mostrar todas."
+
+#: admin/theme-options.php:142
+msgid "Default Background Color"
+msgstr "Color de fondo predeterminado"
+
+#: admin/theme-options.php:143
+msgid "Select default album color, you can override it in album settings for specific album."
+msgstr "Selecciona el color de fondo por defecto del álbum, se puede reemplazar en la configuración del álbum para cada álbum específico."
+
+#: admin/theme-options.php:148
+msgid "Default Background Pattern"
+msgstr "Patrón de fondo por defecto"
+
+#: admin/theme-options.php:149
+msgid "Enter full URL to default album pattern, you can override it in album settings for specific album. Or leave empty, if you need just color."
+msgstr "Escribe la URL completa del patrón por defecto para los álbumes, se puede reemplazar en la configuración del álbum para cada álbum específico. O dejar en blanco, si sólo quieres un color."
+
+#: admin/theme-options.php:154
+msgid "Default Image Scale Mode"
+msgstr "Modo por defecto de escalado de la imagen"
+
+#: admin/theme-options.php:155
+msgid "Select how images will resize. This is default value, you can override it in album settings."
+msgstr "Elige como se escalaran las imagenes. Este es un valor por defecto, puedes sobreescribirlo en las opciones del albúm."
+
+#: admin/theme-options.php:160
+#: inc/gallery-manage.php:224
+#: inc/gallery-manage.php:322
+msgid "Fit in area"
+msgstr "Encajar"
+
+#: admin/theme-options.php:161
+#: inc/gallery-manage.php:223
+#: inc/gallery-manage.php:323
+msgid "Fill the area"
+msgstr "Llene el área"
+
+#: admin/theme-options.php:162
+#: inc/gallery-manage.php:225
+#: inc/gallery-manage.php:324
+msgid "Don't scale"
+msgstr "No escalar"
+
+#: admin/theme-options.php:165
+msgid "Gallery Image Size"
+msgstr "Tamaño de imagen de la galería"
+
+#: admin/theme-options.php:166
+msgid "WordPress image size for gallery images. Can be large, medium, or any other image size type. You'll need to resave all existing galleries if you change this."
+msgstr "Tamaño de Wordpress para la imágenes de la galería. Puede ser 'full', 'large', 'medium', o cualquier otro tipo de tamaño de imagen. Deberás volver a guardar las galerías existentes si cambias esto."
+
+#: admin/theme-options.php:171
+msgid "Auto-open project description"
+msgstr "Abrir descripción del proyecto automáticamente"
+
+#: admin/theme-options.php:172
+msgid "Automatically open project description on first image of every album."
+msgstr "Abrir la descripción del proyecto automáticamente en la primera imagen de cada albúm."
+
+#: inc/gallery-manage.php:114
+msgid "Gallery_Categories"
+msgstr "Categorías"
+
+#: inc/gallery-manage.php:115
+msgid "Gallery Category"
+msgstr "Categoría"
+
+#: inc/gallery-manage.php:116
+msgid "Search Gallery Categories"
+msgstr "Buscar categorías"
+
+#: inc/gallery-manage.php:117
+msgid "Popular Gallery Categories"
+msgstr "Categorías populares"
+
+#: inc/gallery-manage.php:118
+msgid "All Gallery Categories"
+msgstr "Todas las Categorías"
+
+#: inc/gallery-manage.php:119
+msgid "Parent Gallery Category"
+msgstr "Categoría padre"
+
+#: inc/gallery-manage.php:120
+msgid "Parent Gallery Category:"
+msgstr "Categoría padre:"
+
+#: inc/gallery-manage.php:121
+msgid "Edit Gallery Category"
+msgstr "Editar Categoría"
+
+#: inc/gallery-manage.php:122
+msgid "Update Gallery Category"
+msgstr "Actualizar categoría"
+
+#: inc/gallery-manage.php:123
+msgid "Add New Gallery Category"
+msgstr "Añadid nueva categoría"
+
+#: inc/gallery-manage.php:124
+msgid "New Gallery Category Name"
+msgstr "Nombre de nueva categoría"
+
+#: inc/gallery-manage.php:125
+msgid "Separate gallery categories with commas"
+msgstr "Separa las categorías con comas"
+
+#: inc/gallery-manage.php:126
+msgid "Add or remove gallery categories"
+msgstr "Añadir o quitar categorías"
+
+#: inc/gallery-manage.php:127
+msgid "Choose from the most used gallery categories"
+msgstr "Elige entre las categorías más usadas"
+
+#: inc/gallery-manage.php:128
+#: inc/gallery-manage.php:250
+msgid "Gallery Categories"
+msgstr "Categorías"
+
+#: inc/gallery-manage.php:144
+msgid "Album"
+msgstr "Álbum"
+
+#: inc/gallery-manage.php:145
+#: inc/gallery-manage.php:146
+msgid "Add New Album"
+msgstr "Añadir nuevo album"
+
+#: inc/gallery-manage.php:147
+msgid "Edit Album"
+msgstr "Editar Album"
+
+#: inc/gallery-manage.php:148
+msgid "View Album"
+msgstr "Ver Album"
+
+#: inc/gallery-manage.php:149
+msgid "New Album"
+msgstr "Nuevo Album"
+
+#: inc/gallery-manage.php:150
+msgid "Search Albums"
+msgstr "Buscar Álbumes"
+
+#: inc/gallery-manage.php:151
+msgid "Albums not found"
+msgstr "No se han encontrado álbumes"
+
+#: inc/gallery-manage.php:152
+msgid "Albums not found in trash"
+msgstr "No se han encontrado álbumes en la papelera"
+
+#: inc/gallery-manage.php:190
+msgid "Remove item"
+msgstr "Quitar elemento"
+
+#: inc/gallery-manage.php:204
+msgid "Video URL (YouTube or Vimeo)"
+msgstr "URL del Video (YouTube o Vimeo)"
+
+#: inc/gallery-manage.php:220
+#: inc/gallery-manage.php:319
+msgid "Image scale mode"
+msgstr "Modo de escala de la imagen"
+
+#: inc/gallery-manage.php:222
+msgid "Default (from gallery settings)"
+msgstr "Por defecto (a partir de la configuración de la galería)"
+
+#: inc/gallery-manage.php:233
+msgid "Alt attribute"
+msgstr "Atributo alt"
+
+#: inc/gallery-manage.php:248
+msgid "Title"
+msgstr "Título"
+
+#: inc/gallery-manage.php:249
+msgid "Author"
+msgstr "Autor"
+
+#: inc/gallery-manage.php:251
+msgid "date"
+msgstr "fecha"
+
+#: inc/gallery-manage.php:302
+msgid "This album does not contain any images yet.<br/> Click button below to add some."
+msgstr "Este álbum no contiene ninguna imagen todavía. <br/> Haz clic en el botón de debajo para añadir alguna."
+
+#: inc/gallery-manage.php:308
+msgid "Add Images"
+msgstr "Añadir Imagenes"
+
+#: inc/gallery-manage.php:321
+msgid "Default (from global gallery settings)"
+msgstr "Por defecto (desde la configuración global de la galería)"
+
+#: inc/gallery-manage.php:329
+msgid "Album background color"
+msgstr "Color de fondo del album"
+
+#: inc/gallery-manage.php:333
+#: inc/gallery-manage.php:340
+msgid "Leave empty for default"
+msgstr "Dejar en blanco para color por defecto"
+
+#: inc/gallery-manage.php:336
+msgid "Album background pattern URL (optional)"
+msgstr "Url del patrón de fondo (opcional)"
+
+#: inc/template-tags.php:39
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Comentarios más antiguos"
+
+#: inc/template-tags.php:43
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Comentarios más recientes <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:68
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:68
+#: inc/template-tags.php:91
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: inc/template-tags.php:88
+#, php-format
+msgid "%1$s at %2$s "
+msgstr "%1$ s en %2$s "
+
+#: inc/template-tags.php:90
+msgid "Comment permalink"
+msgstr "Enlace permanente al comentario"
+
+#: inc/template-tags.php:95
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está en espera de moderación."
+
+#: inc/template-tags.php:120
+#, php-format
+msgid "<span class=\"byline\">by <span class=\"author vcard\"><span class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</span></span></span> &middot; <time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time>"
+msgstr "<span class=\"byline\">por <span class=\"author vcard\"><span class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</span></span></span> &middot; <time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time>"
+
+#: inc/template-tags.php:126
+#, php-format
+msgid "View all posts by %s"
+msgstr "Ver todos los mensajes de %s"
+
+#: inc/template-tags.php:131
+msgid "leave a comment"
+msgstr "deja un comentario"
+
+#: inc/template-tags.php:131
+msgid "1 comment"
+msgstr "1 comentario"
+
+#: inc/template-tags.php:131
+#, php-format
+msgid "% comments"
+msgstr "% comentarios"
+
+#~ msgid ""
+#~ "Theme designed and developed by <a href=\"http://dimsemenov.com/\">Dmitry "
+#~ "Semenov</a>. Follow me on <a href=\"http://twitter.com/dimsemenov"
+#~ "\">Twitter</a> or <a href=\"http://dimsemenov.com/subscribe.html\">join "
+#~ "my newsletter</a> to get notified about theme updates and news."
+#~ msgstr ""
+#~ "Tema diseñado y desarrollado por <a href=\"http://dimsemenov.com/\"> "
+#~ "Dmitry Semenov</a>. Sígueme en <a href=\"http://twitter.com/dimsemenov"
+#~ "\">Twitter</a> o <a href=\"http://dimsemenov.com/subscribe.html\"> "
+#~ "suscríbete a mi boletín de noticias</a> para recibir notificaciones sobre "
+#~ "actualizaciones y noticias del tema."
