@@ -151,7 +151,7 @@ function dsframework_setup() {
 	/**
 	 * Enable support for Post Thumbnails
 	 */
-	add_theme_support( 'post-thumbnails', array('ds-gallery') );
+	add_theme_support( 'post-thumbnails', array('post' , 'page','ds-gallery') );
 	add_image_size( 'gallery-thumb', 304, 5000 ); // for masonry portfolio
 
 	/**
